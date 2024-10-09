@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-In</title>
+</head>
+<body>
+    <img src="manusingpc.png" alt="login"  data-aos="fade-right"  data-aos-duration="1500">
+<div id="div1"  data-aos="fade-left"  data-aos-duration="1500">
+      <form>
+        <ul>
+         <li> <label  style="color: aqua;">Email :</label><input type="email" name="Email" placeholder="musk@gmail.com" id="input1" [formControl]="email"><i class="fa-solid fa-envelope"></i></li>
+         <br> <p id="error" *ngIf="email.errors?.['email']">You Must Enter a Valid Email</p>
+              <p id="error" *ngIf="email.errors?.['required']">Email is required</p>
+
+         <li><label style="color: aqua;">Password :</label><input type="password" name="Password" placeholder="Musk@123" id="input2" [formControl]="password"><i class="fa-solid fa-lock"></i></li>
+         <br>  <p id="error" *ngIf="password.errors?.['minlength']">Min 3 Character should Be There</p>
+               <p id="error" *ngIf="password.errors?.['maxlength']">Mix 20 Character Only Allowed</p>
+               <p id="error" *ngIf="password.errors?.['required']">Password is required</p>
+
+         <li><a href="forgetpassword" class="li" style="color: aqua;">Forget Password ?</a></li>
+         <li><button type="submit" id="submit" >Submit</button></li>
+        </ul>
+        </form>
+</div>
+</body>
+</html>

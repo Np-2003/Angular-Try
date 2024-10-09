@@ -1,0 +1,146 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: linear-gradient(to right ,rgb(59, 5, 80) ,rgb(152, 63, 188) );
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: antiquewhite;
+    height: 500px;
+    width: 1280px;
+}
+h1{
+    justify-content: center;
+    display: inline-block;
+    margin-top: 30px;
+    margin-left: 500px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+hr{
+    width: 120px;
+    height: 5px;
+    background-color: aliceblue;
+    margin-left: 575px;
+    margin-top: 15px;
+    border-radius: 25px;
+}
+#group{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+#group div {
+    align-items: center;
+    padding: 30px;
+    background-color: black;
+    opacity: 0.5;
+    color: white;
+    height: 170px;
+    width: 300px;
+    border-radius: 30px;
+}
+h4{
+    /* margin-left: 520px; */
+    margin-top: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#divgroup{
+    display: flex;
+    background-color: black;
+    opacity: 0.8;
+    height: 145px;
+    margin-top: 63px;
+    justify-content: space-around;
+    align-items: center;
+}
+#divgroup div{
+    margin-left: 100px;
+}
+#div1 { 
+    .ttl{ background-color:rgb(59, 5, 80);
+          color: white;
+          padding: 10px;
+          border-radius: 10px;
+          display: inline-block;
+        }
+    h5{padding-top: 10px;}
+}
+#div2 {
+    .ttl{ background-color:rgb(59, 5, 80);
+          color: white;
+          padding: 10px;
+          border-radius: 10px;
+          display: inline-block;
+        }
+    h5{padding-top: 7px;}
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+#i1,#i2,#i3,#i4,#i5{
+    transition: 0.4s ease ;
+    color: white;
+}
+#i1:hover{
+    background-color: rgb(1, 101, 225);
+    color: white;
+    padding: 10px 11px;
+    border-radius: 25px;
+}
+#i2:hover{
+    background-color: rgb(193, 53, 132);
+    color: white;
+    padding: 10px 12px;
+    border-radius: 25px;
+    
+}
+#i3:hover{
+    background-color: rgb(29, 155, 240);
+    color: white;
+    padding: 10px 11px;
+    border-radius: 25px;
+}
+#i4:hover{
+    background-color: rgb(255, 0, 0);
+    color: white;
+   
+}
+#i5:hover{
+    background-color: rgb(41, 40, 40);
+    color:white;
+    padding: 10px 12px;
+    border-radius: 25px;
+}
+#icons ul {
+   align-content: center;
+   justify-content: center;
+}
+#icons ul{
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    padding: 0px;
+    margin-right: 65px;
+}
+#fl li {
+    display: inline-flex;
+    margin-left: 10px;
+    padding: 10px 11px;
+    border-radius: 25px;
+}
+
+#icons #follow{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color:rgb(59, 5, 80);
+    color: white;
+    padding: 10px;
+    margin-bottom:20px;
+    margin-left: 60px;
+    border-radius: 10px;
+    display: inline-block;
+    
+}

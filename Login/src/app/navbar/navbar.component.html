@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar</title>
+    
+</head>
+<body>
+    <nav id="nav">
+        <h1 data-aos="fade-down"  data-aos-duration="1500"><i class="fa-solid fa-user-ninja"></i>&nbsp;&nbsp;Coding Ninja</h1>
+        <!-- <a href="" id="menu"><i class="fa-solid fa-bars" style="color: white;"></i></a> -->
+      <div id="uldiv"><ul>
+           <!-- <li><a href="" id="close" ><i class="fa-solid fa-xmark"></i></a></li> -->
+            <li data-aos="fade-up"  data-aos-duration="1500" data-aos-delay="100"><a routerLink="" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }">Home</a></li>
+            <li data-aos="fade-up"  data-aos-duration="1500" data-aos-delay="200"><a routerLink="/about" routerLinkActive="active">About</a></li>
+            <li data-aos="fade-up"  data-aos-duration="1500" data-aos-delay="300"><a routerLink="/signin" class="signin" routerLinkActive="active">Sign-in</a></li>
+           
+        </ul></div>
+       
+        
+    </nav>
+    <hr>
+</body>
+</html>

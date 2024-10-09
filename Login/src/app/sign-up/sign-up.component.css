@@ -1,0 +1,103 @@
+body{
+    background-image: linear-gradient(to right ,rgb(59, 5, 80) ,rgb(152, 63, 188) );
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: antiquewhite;
+    height: 505px;
+    width: 1280px;
+}
+img{
+    height: 300px;
+    width: 300px;
+    margin-top: 70px;
+    margin-left: 220px;
+    display: inline-block;
+    filter: drop-shadow(2px 0px 10px black);
+}
+#div1{
+    display:flex;
+    background-color: rgba(0,0,0,0.5);
+    backdrop-filter: blur(8px);
+    box-shadow: 7px 7px 7px black;
+    height: 350px;
+    width: 400px;
+    border-radius: 47px;  
+    margin-left: 620px;
+    margin-top: -290px;
+    align-items: center;
+    justify-content: center;
+}
+ul li{
+    margin-top: 20px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    color: yellow;
+}
+#input1{
+    margin-left: 33px;
+    border-radius: 30px;
+    border: none;
+    padding: 8px 16px;
+}
+#input2{
+    margin-left: 10px;
+    border-radius: 30px;
+    border: none;
+    padding: 8px 16px;
+}
+.fa-solid{
+    margin-left: 15px;
+    color: aqua;
+}
+#submit{
+    margin-top: 10px;
+    margin-left: 110px;
+    border: none;
+    transition: 0.5s ease-in-out;
+    cursor: pointer;
+    background-color: black;
+    opacity: 0.8;
+    color: aqua;
+    padding:10px 25px;
+    border-radius: 12px;
+}
+#submit:hover{
+    background-color: chocolate;
+    color: white;
+}
+#error{
+    color: red;
+}
+/*
+#div1{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+ul{
+    margin-top: 120PX;
+    margin-right: -250px;
+    
+}
+ul li{
+    margin-top: 40px;
+    margin-left: 70px;
+}
+img{
+    height: 300px;
+    width: 300px;
+    margin-left: -400px;
+    margin-top: 20px;
+}
+
+
+input:hover{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+} */
